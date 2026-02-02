@@ -41,7 +41,7 @@ Key modeling assumptions and parameter values in this script (including, but not
 
   - FPV technical assumptions from https://doi.org/10.1016/j.apenergy.2020.116084
   - Tempearture effect on efficiency from https://doi.org/10.1016/j.heliyon.2022.e11896
-  - Humidity loss coeffcient from 10.5455/jjee.204-1667584023
+  - Humidity loss coeffcient from http://doi.org/10.5455/jjee.204-1667584023
   - Wave induced loss coefficient from https://doi.org/10.1016/j.solener.2025.113439
 ---
 
