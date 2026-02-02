@@ -1,4 +1,4 @@
-# Simple Floating PV model from UNIFI
+# Simple Floating PV power output estimator from UNIFI
 
 ## Overview
 This script post-processes an NSRDB (NREL) CSV time series to estimate plane-of-array (POA) irradiance, PV cell temperature, temperature-derated efficiency, and resulting PV power output (or specific power output).
@@ -19,7 +19,7 @@ The script also generates diagnostic plots (irradiance components, solar angles,
 ---
 
 ## Citation
-If this model is used in scientific work, please cite:
+If this script is used in scientific work, please cite:
 
 F. Superchi, R. Travaglini and A. Bianchini, *Renewable Energy*, vol. 260, p. 125194, 2026.  
 "Critical issues for the deployment of floating offshore hybrid energy systems comprising wind and solar: a case study analysis for the Mediterranean Sea"  
