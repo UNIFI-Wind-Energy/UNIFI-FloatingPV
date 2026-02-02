@@ -3,6 +3,9 @@
 ## Overview
 This script post-processes an NSRDB (NREL) CSV time series to estimate plane-of-array (POA) irradiance, PV cell temperature, temperature-derated efficiency, and resulting PV power output (or specific power output).
 
+<img width="3127" height="3307" alt="FPV model" src="https://github.com/user-attachments/assets/f2fe69f4-0652-4d4b-bc59-75e442d9e2cb" />
+
+
 Main steps:
 1. Read hourly irradiance and meteo data (GHI, DNI, DHI, air temperature, wind speed) from an NSRDB CSV export.
 2. Compute solar position (apparent zenith and azimuth) for the selected latitude, longitude, and time zone.
