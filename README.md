@@ -31,7 +31,8 @@ URL: https://doi.org/10.1016/j.renene.2026.125194
 ## Credits and acknowledgements
 
 ### Software
-This script relies on the open-source Python library `pvlib` for solar position, irradiance transposition, and PV temperature modeling (e.g., `pvlib.location.Location`, `pvlib.irradiance.get_total_irradiance`, and `pvlib.temperature.pvsyst_cell`). Please cite `pvlib` appropriately if required by the target journal or project guidelines, and follow the `pvlib` license terms.
+This script relies on the open-source Python library pvlib for solar position, irradiance transposition, and PV temperature modeling (e.g., `pvlib.location.Location`, `pvlib.irradiance.get_total_irradiance`, and `pvlib.temperature.pvsyst_cell`). Please cite pvlib appropriately if required by the target journal or project guidelines, and follow the pvlib license terms.
+[pvlib repository](https://github.com/pvlib)
 
 ### Data sources
 Solar irradiance and meteorological inputs are intended to be sourced from the National Solar Radiation Database (NSRDB) by NREL, as indicated in the script.
@@ -40,8 +41,8 @@ Solar irradiance and meteorological inputs are intended to be sourced from the N
 Key modeling assumptions and parameter values in this script (including, but not limited to, wave-induced losses (WIL), humidity losses (HL), PVsyst heat transfer coefficients (`u_c`, `u_v`), and efficiency temperature derating parameters) are taken from, or calibrated based on, the scientific literature explicitly referenced in the code comments and DOI links. For transparency and reproducibility, users should consult and cite those references when reusing the corresponding assumptions or parameter values.
 
   - FPV technical assumptions from https://doi.org/10.1016/j.apenergy.2020.116084
-  - Tempearture effect on efficiency from https://doi.org/10.1016/j.heliyon.2022.e11896
-  - Humidity loss coeffcient from http://doi.org/10.5455/jjee.204-1667584023
+  - Temperature effect on efficiency from https://doi.org/10.1016/j.heliyon.2022.e11896
+  - Humidity loss coefficient from http://doi.org/10.5455/jjee.204-1667584023
   - Wave induced loss coefficient from https://doi.org/10.1016/j.solener.2025.113439
 ---
 
