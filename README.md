@@ -34,7 +34,7 @@ URL: https://doi.org/10.1016/j.renene.2026.125194
 ## Credits and acknowledgements
 
 ### Software
-This script relies on the open-source Python library pvlib for solar position, irradiance transposition, and PV temperature modeling (e.g., `pvlib.location.Location`, `pvlib.irradiance.get_total_irradiance`, and `pvlib.temperature.pvsyst_cell`). Please cite pvlib appropriately if required by the target journal or project guidelines, and follow the pvlib license terms.
+This script relies on the open-source Python library pvlib for solar position, irradiance transposition, and PV temperature modeling (e.g., `pvlib.location.Location`, `pvlib.irradiance.get_total_irradiance`, and `pvlib.temperature.pvsyst_cell`). Please cite pvlib appropriately and follow the pvlib license terms.
 [pvlib repository](https://github.com/pvlib)
 
 ### Data sources
