@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: "UNIFI-FloatingPV"
+message: "If you use this software, please cite the following papers."
+type: software
+authors:
+    - family-names: "Superchi"
+      given-names: "Francesco"
+    - family-names: "Bianchini"
+      given-names: "Alessandro"
+    
+
+references:
+  - type: article
+    title: "Critical issues for the deployment of floating offshore hybrid energy systems comprising wind and solar: a case study analysis for the Mediterranean Sea"
+    authors:
+      - family-names: "Superchi"
+        given-names: "Francesco"
+      - family-names: "Travaglini"
+        given-names: "Riccardo"
+      - family-names: "Bianchini"
+        given-names: "Alessandro"
+    journal: "Renewable Energy"
+    volume: 260
+    pages: 125194
+    year: 2026
+    doi: "10.1016/j.renene.2026.125194"
+
